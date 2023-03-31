@@ -7,12 +7,11 @@ const Lobby = ({ joinRoom }) => {
 
     return <Form className='lobby'
         onSubmit={e => {
-         
             e.preventDefault();
             joinRoom(user, room);
         }} >
         <Form.Group>
-            <Form.Control placeholder="name" onChange={e => setUser(e.target.value)} />
+            <Form.Control placeholder="Type your name, please !" onChange={e => setUser(e.target.value)} />
             <Form.Control placeholder="room" onChange={e => setRoom(e.target.value)} />
         </Form.Group>
         <Button variant="success" type="submit" disabled={!user || !room}>Join</Button>

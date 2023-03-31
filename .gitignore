@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+out/
+tmp/
+*.pid
+*.pid.lock
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.swi
+*.swh
+*.swg
+*.swf
+*.swe
+*.swd
+*.swc
+*.swb
+*.swa
+*.sw~
+*~.nib
+
+# Miscellaneous
+Thumbs.db
+.DS_Store
+desktop.ini

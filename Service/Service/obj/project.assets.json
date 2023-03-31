@@ -2043,11 +2043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac/Projects/Service/Service/Service.csproj",
+      "projectUniqueName": "/Users/mac/Projects/ChatAPp/Service/Service/Service.csproj",
       "projectName": "Service",
-      "projectPath": "/Users/mac/Projects/Service/Service/Service.csproj",
+      "projectPath": "/Users/mac/Projects/ChatAPp/Service/Service/Service.csproj",
       "packagesPath": "/Users/mac/.nuget/packages/",
-      "outputPath": "/Users/mac/Projects/Service/Service/obj/",
+      "outputPath": "/Users/mac/Projects/ChatAPp/Service/Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mac/.nuget/NuGet/NuGet.Config"
