@@ -3,27 +3,26 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Service PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Service/Hubs/ChatHub.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Service/Program.cs">
     <Files>
-      <File FileName="Service/Hubs/ChatHub.cs" Line="27" Column="125" />
-      <File FileName="Service/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Service/Hubs/ChatHub.cs" />
+      <File FileName="Service/Properties/launchSettings.json" />
+      <File FileName="Service/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Service" expanded="True">
             <Node name="Service" expanded="True">
-              <Node name="Hubs" expanded="True">
-                <Node name="ChatHub.cs" selected="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
+              <Node name="Hubs" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Service PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -27,6 +27,7 @@ namespace Service.Hubs
                 _connections.Remove(Context.ConnectionId);
                 Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has left");
                 SendUsersConnected(userConnection.Room);
+                
             }
 
             return base.OnDisconnectedAsync(exception);
