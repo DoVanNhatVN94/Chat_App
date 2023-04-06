@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/Projects/ChatAPp/WebApi/WebApi.csproj": {}
+    "/Users/mac/Projects/ChatAPp/Service/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/Users/mac/Projects/ChatAPp/WebApi/WebApi.csproj": {
+    "/Users/mac/Projects/ChatAPp/Service/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Projects/ChatAPp/WebApi/WebApi.csproj",
+        "projectUniqueName": "/Users/mac/Projects/ChatAPp/Service/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/Users/mac/Projects/ChatAPp/WebApi/WebApi.csproj",
+        "projectPath": "/Users/mac/Projects/ChatAPp/Service/WebApi/WebApi.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Projects/ChatAPp/WebApi/obj/",
+        "outputPath": "/Users/mac/Projects/ChatAPp/Service/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"

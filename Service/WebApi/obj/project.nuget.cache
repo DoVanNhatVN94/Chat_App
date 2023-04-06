@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZrGSEH1IxKinYd8crwkRG3Gi7g7zG1dhIW8KpJ7oMBu563eI6I6YBHGN8uDiJhL01luZUwC6+5zProUS+i3fQ==",
+  "dgSpecHash": "0eqyOrvxFY5ctIEOIt4tkb9rBccxwUG9F3oEZjSo3CvwqTEMxrZjAe/HyXentaI/uwZ4rTlgXm4wxwR1ScYMSg==",
   "success": true,
-  "projectFilePath": "/Users/mac/Projects/ChatAPp/WebApi/WebApi.csproj",
+  "projectFilePath": "/Users/mac/Projects/ChatAPp/Service/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/mac/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

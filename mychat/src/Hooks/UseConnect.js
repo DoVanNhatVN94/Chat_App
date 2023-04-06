@@ -1,32 +1,29 @@
-import React, {
-  createContext,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
+import React, { createContext, useContext, useMemo, useState } from "react";
 import { HubConnectionBuilder, LogLevel } from "@microsoft/signalr";
 
 const AuthContext = createContext({
-  connection:"",
-  users:"",
-  messages:"",
-  joinRoom:function(){},
-  sendMessage:function(){},
-  closeConnection:function(){},
+  connection: "",
+  users: "",
+  messages: "",
+  joinRoom: function () {},
+  sendMessage: function () {},
+  closeConnection: function () {},
 });
+
+const apiUrl = process.env.REACT_APP_HUB_URL;
+
 
 export const AuthProvider = ({ children }) => {
   const [connection, setConnection] = useState();
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState([]);
 
-   //Confiu khi có user joinRoom
+  //Confiu khi có user joinRoom
   const joinRoom = async (user, room) => {
     try {
       //tao một connect map với hub trên sv
       const connection = new HubConnectionBuilder()
-        .withUrl("https://localhost:7132/chat")
+        .withUrl(`${apiUrl}/chat`)
         .configureLogging(LogLevel.Information)
         .build();
 
