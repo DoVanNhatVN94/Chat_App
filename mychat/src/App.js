@@ -21,7 +21,7 @@ const App = () => {
       <h2>MyChat</h2>
       <hr className="line mx-auto mb-3" />
       {!connection ? (
-        //Khi có conect nó sẽ chuyển sang
+        //Khi có connecting nó sẽ move sang
         <Lobby joinRoom={joinRoom} />
       ) : (
         <Chat

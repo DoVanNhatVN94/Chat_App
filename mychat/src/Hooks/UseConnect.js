@@ -26,7 +26,7 @@ export const AuthProvider = ({ children }) => {
     try {
       //tao một connect map với hub trên sv
       const connection = new HubConnectionBuilder()
-        .withUrl("https://localhost:7232/chat")
+        .withUrl("https://localhost:7132/chat")
         .configureLogging(LogLevel.Information)
         .build();
 

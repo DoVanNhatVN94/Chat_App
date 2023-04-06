@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{01E46DBA-14D1-4C69-B636-C9FF9DBAEA16}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/Program.cs">
+    <Files>
+      <File FileName="WebApi/Hubs/ChatHub.cs" Line="57" Column="1" />
+      <File FileName="WebApi/Program.cs" Line="58" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChatApp" expanded="True">
+            <Node name="WebApi" expanded="True">
+              <Node name="Hubs" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="UserConnection.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
